@@ -1,7 +1,6 @@
 {% macro create_external_table(
     table_name,
     folder_name,
-    -- warehouse_name='TRAINING_WH',
     database_name='CT_VAISHNAVI_GUPTA_DB',
     schema_name='EXTERNAL',
     stage_name='CT_VAISHNAVI_GUPTA_DB.BRONZE.BRONZE_STAGE',
